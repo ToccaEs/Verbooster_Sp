@@ -6,7 +6,9 @@
      <meta name="description" content="Verbooster Conjugaison des verbes espagnols. Personnalisez les exercices et cartes : temps, pronoms, verbes (y compris irréguliers et réflexifs). Développez votre fluidité avec des statistiques intelligentes.">
     <meta name="keywords" content="Verbooster, conjugaison des verbes espagnols, pratiquer, apprendre l'espagnol, conjugaisons, grammaire espagnole, cartes mémoire, quiz, entraînement, conjugaison, verbes espagnols, grammaire, temps, pronoms, irréguliers, exercices, étude, Espagne, subjonctif, apprendre, quiz, verbes, langue учить испанский, учить, испанские глаголы, спряжения испанских глаголов, неправильные глаголы, 学习西班牙语 , تعلم الإسبانية ,  Apprendre l’espagnol , 学习西班牙语动词 , تعلم الأفعال الإسبانية , Apprendre les verbes espagnols , 學習西班牙語 , 學習西班牙語動詞 , Latin America">
     <title>Verbooster: Verbes Espagnols - Apprenez et Pratiquez les Conjugaisons</title>
-       <link rel="icon" type="image/png" href="https://github.com/ToccaEs/ToccaEs.github.io/raw/57fbb9841ba04c363609dba987330d315141c129/favicon.png" />
+
+    <link rel="icon" type="image/png" href="https://github.com/ToccaEs/ToccaEs.github.io/raw/57fbb9841ba04c363609dba987330d315141c129/favicon.png" />
+
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -38,31 +40,31 @@
             color: #777;
         }
 
-        .container {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-        }
-
-        .icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 20px;
-            overflow: hidden;
-            flex-shrink: 0;
-        }
-
-        .icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
         .text-content {
             flex: 1;
         }
+
+        /* BACK BUTTON */
+        .back-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #007AFF;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .back-btn:hover {
+            background: #005FCC;
+            transform: translateY(-1px);
+        }
     </style>
+</head>
+
 <body>
+
 <section>
     <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Long%20name%20JPEG%20for%20PH%20brighter.jpg" 
          alt="Verbooster Conjugaisons des Verbes Espagnols" 
@@ -70,26 +72,53 @@
 </section>
 
 <div class="text-content">
-    <h1>Verbooster Support</h1>
+    <h1>Support Verbooster</h1>
+
     <p>
-       Merci d'utiliser Verbooster pour maîtriser votre espagnol! Nous espérons que vous avez eu une excellente expérience.
-Si vous avez des questions ou des suggestions, n'hésitez pas à nous envoyer un e-mail à:
-<a href="mailto:contact@verbooster.com">contact@verbooster.com</a>.
-Apprenez et pratiquez les conjugaisons des verbes espagnols avec Verbooster! ¡Practica y aprende verbos españoles fácilmente con Verbooster!
+       Merci d'utiliser Verbooster pour maîtriser votre espagnol ! Nous espérons que vous avez eu une excellente expérience.
+       Si vous avez des questions ou des suggestions, n'hésitez pas à nous envoyer un e-mail à :
+       <a href="mailto:contact@verbooster.com">contact@verbooster.com</a>.
+       Apprenez et pratiquez les conjugaisons des verbes espagnols avec Verbooster ! ¡Practica y aprende verbos españoles fácilmente con Verbooster!
     </p>
-    <div style="text-align: center; margin: 20px 0;">
-        <a href="https://apps.apple.com/es/app/verbooster-spanish-verbs/id6744456488" class="app-link">
-            <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg" alt="Téléchargez Verbooster">
-        </a>
-    </div>
+
+<div style="text-align:center; margin:20px 0; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+
+    <!-- App Store -->
+    <a href="https://apps.apple.com/es/app/verbooster-spanish-verbs/id6744456488" target="_blank" rel="noopener">
+        <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg"
+             alt="Télécharger sur l’App Store"
+             style="height:60px;">
+    </a>
+
+    <!-- Google Play -->
+    <a href="https://play.google.com/store/apps/details?id=com.verbooster.verboosterspanishverbs" target="_blank" rel="noopener">
+        <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/main/GetItOnGooglePlay_Badge_Web_color_French-CA.svg"
+             alt="Disponible sur Google Play"
+             style="height:60px;">
+    </a>
+
+</div>
 </div>
 
-    <!-- About Us Section -->
-<section id="À propos de nous">
+<!-- About Us -->
+<section id="about-us">
   <h3>À propos de nous</h3>
-  <p>Nous sommes un petit studio méditerranéen développant des applications mobiles et bien plus encore, situé dans la province de Tarragone, en Catalogne, Espagne. Nous aimons non seulement le design et la programmation, mais aussi notre cuisine méditerranéenne, le vermouth (un produit local traditionnel) et la construction des Castells (tours humaines). Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter :
-<a href="mailto:contact@verbooster.com">contact@verbooster.com</a>.</p>
+  <p>
+Nous sommes un studio méditerranéen développant des applications mobiles et bien plus encore, situé dans la province de Tarragone, en Catalogne, Espagne.
+Nous aimons non seulement le design et la programmation, mais aussi notre cuisine méditerranéenne, le vermouth (un produit local traditionnel) et la construction des Castells (tours humaines).
+Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter :
+<a href="mailto:contact@verbooster.com">contact@verbooster.com</a>.
+  </p>
 </section>
-   <p class="footer">© 2025. Tous droits réservés.</p>
+
+<!-- 🔻 BACK BUTTON -->
+<div style="text-align:center; margin-top:30px;">
+    <a href="https://www.verbooster.com/" class="back-btn">
+        ← Retour à Verbooster
+    </a>
+</div>
+
+<p class="footer">© 2025. Tous droits réservés.</p>
+
 </body>
 </html>
