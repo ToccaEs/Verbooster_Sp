@@ -8,7 +8,9 @@
 スマートな統計機能で流暢さを身につけましょう。">
     <meta name="keywords" content="Verbooster, スペイン語の動詞活用, 練習, スペイン語を学ぶ, 活用, スペイン語の文法, フラッシュカード, クイズ, トレーニング, 活用練習, スペイン語の動詞, 文法, 時制, 代名詞, 不規則動詞, 練習問題, 学習, スペイン, 接続法, 学ぶ, テスト, 動詞, 言語учить испанский, учить, испанские глаголы, спряжения испанских глаголов, неправильные глаголы, 学习西班牙语 , تعلم الإسبانية ,  Apprendre l’espagnol , 学习西班牙语动词 , تعلم الأفعال الإسبانية , Apprendre les verbes espagnols , 學習西班牙語 , 學習西班牙語動詞 , Latin America">
     <title>Verbooster: Spanish Verbs - Learn & Practice Conjugations</title>
-       <link rel="icon" type="image/png" href="https://github.com/ToccaEs/ToccaEs.github.io/raw/57fbb9841ba04c363609dba987330d315141c129/favicon.png" />
+
+    <link rel="icon" type="image/png" href="https://github.com/ToccaEs/ToccaEs.github.io/raw/57fbb9841ba04c363609dba987330d315141c129/favicon.png" />
+
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -40,31 +42,31 @@
             color: #777;
         }
 
-        .container {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-        }
-
-        .icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 20px;
-            overflow: hidden;
-            flex-shrink: 0;
-        }
-
-        .icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
         .text-content {
             flex: 1;
         }
+
+        /* BACK BUTTON */
+        .back-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #007AFF;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .back-btn:hover {
+            background: #005FCC;
+            transform: translateY(-1px);
+        }
     </style>
+</head>
+
 <body>
+
 <section>
     <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Long%20name%20JPEG%20for%20PH%20brighter.jpg" 
          alt="Verbooster：スペイン語の動詞 – 活用を学び、練習しよう" 
@@ -79,19 +81,46 @@
     <a href="mailto:contact@verbooster.com">contact@verbooster.com</a>。
     Verbooster でスペイン語の動詞活用を学び、練習しましょう！
  ¡Practica y aprende verbos españoles fácilmente con Verbooster!
-    </p>
-    <div style="text-align: center; margin: 20px 0;">
-        <a href="https://apps.apple.com/es/app/verbooster-spanish-verbs/id6744456488" class="app-link">
-            <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg" alt="Download Verbooster：スペイン語の動詞 – 活用を学び、練習しよう">
-        </a>
-    </div>
+</p>
+
+<div style="text-align:center; margin:20px 0; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+
+    <!-- App Store -->
+    <a href="https://apps.apple.com/es/app/verbooster-spanish-verbs/id6744456488" target="_blank" rel="noopener">
+        <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/refs/heads/main/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg"
+             alt="App Storeでダウンロード"
+             style="height:60px;">
+    </a>
+
+    <!-- Google Play -->
+    <a href="https://play.google.com/store/apps/details?id=com.verbooster.verboosterspanishverbs" target="_blank" rel="noopener">
+        <img src="https://raw.githubusercontent.com/ToccaEs/Verbooster_Sp/main/GetItOnGooglePlay_Badge_Web_color_Japanese.svg"
+             alt="Google Playで入手"
+             style="height:60px;">
+    </a>
+
+</div>
 </div>
 
-    <!-- About Us Section -->
+<!-- About Us -->
 <section id="about-us">
 <h3>私たちについて</h3>
-<p>私たちはスペイン・カタルーニャ州タラゴナ県にある、小さな地中海スタジオで、モバイルアプリケーションなどを開発しています。デザインやコーディングだけでなく、地中海料理や、地元の伝統的な製品であるヴェルムート、人間の塔（カステル）の建設も愛しています。ご質問やご提案がある場合は、お気軽に以下のメールアドレスまでご連絡ください：<a href="mailto:contact@verbooster.com">contact@verbooster.com</a>。</p>
+<p>
+私たちはスペイン・カタルーニャ州タラゴナ県にある、小さな地中海スタジオで、モバイルアプリケーションなどを開発しています。
+デザインやコーディングだけでなく、地中海料理や、地元の伝統的な製品であるヴェルムート、人間の塔（カステル）の建設も愛しています。
+ご質問やご提案がある場合は、お気軽に以下のメールアドレスまでご連絡ください：
+<a href="mailto:contact@verbooster.com">contact@verbooster.com</a>。
+</p>
 </section>
-    <p class="footer">© 2025. All rights reserved.</p>
+
+<!-- 🔻 BACK BUTTON -->
+<div style="text-align:center; margin-top:30px;">
+    <a href="https://www.verbooster.com/" class="back-btn">
+        ← Verboosterへ戻る
+    </a>
+</div>
+
+<p class="footer">© 2025. All rights reserved.</p>
+
 </body>
 </html>
